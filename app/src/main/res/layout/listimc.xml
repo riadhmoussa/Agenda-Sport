@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pfeisims.riadh.agendasport.MainActivity$PlaceholderFragment">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="refimc"
+        android:text="Refresh IMC" />
+
+    <ListView
+        android:id="@+id/listimc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
